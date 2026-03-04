@@ -1,39 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<main>
+<header>
+  <h2>My Shop</h2>
+  <nav>
+    <ul>
+      <li><a href="landing.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="account.html">Account</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <article>
-    <img src="product1.jpg" width="150">
-    <p>Price: ₱500</p>
-    <a href="detail.html">View Details</a>
-  </article>
+<div class="products-container">
 
-  <article>
-    <img src="product2.jpg" width="150">
-    <p>Price: ₱800</p>
-    <a href="detail.html">View Details</a>
-  </article>
+  <aside>
+    <h3>Filter</h3>
+    <p>Category 1</p>
+    <p>Category 2</p>
+  </aside>
 
-</main>
+  <main>
 
-<aside>
-  <form>
-    <p>Filter</p>
+    <article>
+      <img src="https://via.placeholder.com/200" alt="Product">
+      <h3>Product 1</h3>
+      <p>₱999</p>
+      <button>Add to Cart</button>
+    </article>
 
-    <input type="checkbox"> Cheap<br>
-    <input type="checkbox"> Expensive<br>
+    <article>
+      <img src="https://via.placeholder.com/200" alt="Product">
+      <h3>Product 2</h3>
+      <p>₱799</p>
+      <button>Add to Cart</button>
+    </article>
 
-    <p>Category</p>
-    <input type="radio" name="cat"> Electronics<br>
-    <input type="radio" name="cat"> Clothes<br>
-  </form>
-</aside>
+    <article>
+      <img src="https://via.placeholder.com/200" alt="Product">
+      <h3>Product 3</h3>
+      <p>₱599</p>
+      <button>Add to Cart</button>
+    </article>
+
+    <article>
+      <img src="https://via.placeholder.com/200" alt="Product">
+      <h3>Product 4</h3>
+      <p>₱499</p>
+      <button>Add to Cart</button>
+    </article>
+
+  </main>
+
+</div>
 
 </body>
-</html>
+        </html>
